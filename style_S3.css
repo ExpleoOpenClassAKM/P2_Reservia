@@ -1,0 +1,253 @@
+/* Paramètre général d'affichage pour toute la page */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.page_all
+{
+    max-width: 1350px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ACTIVITES A MARSEILLE - Affichage normal */
+
+.activite_Marseille
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    width: auto;
+}
+
+.titre_activite_all
+{
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+.bloc_activite
+{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    width: 100%;
+    height: 575px;
+}
+
+.activite1
+{
+    background-color: white;
+    margin: 10px 20px 10px 0px;
+    padding: 0px 0px 5px 0px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(206, 202, 202);
+    width: 100%;
+}
+
+.image_activite1
+{
+    display: flex;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0px 0px 5px 0px;
+    width: 100%;
+    height: 90%;
+}
+
+.photo_activite1
+{
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.activite4
+{
+    background-color: white;
+    margin: 10px 20px 10px 20px;
+    padding: 0px 0px 5px 0px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(206, 202, 202);
+    width: 100%;
+}
+
+.image_activite4
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0px 0px 5px 0px;
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+
+.photo_activite4
+{
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.activite23
+{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 575px;
+}
+
+.activite2
+{
+    background-color: white;
+    margin: 15px 10px 20px 10px;
+    padding: 0px 0px 50px 0px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(206, 202, 202);
+    width: 100%;
+    height: 250px;
+}
+
+.image_activite2
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0px 0px 1px 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.photo_activite2
+{
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.activite3
+{
+    background-color: white;
+    margin: 10px 10px 10px 10px;
+    padding: 0px 0px 1px 0px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(206, 202, 202);
+    width: 100%;
+    height: 220px;
+}
+
+.image_activite3
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0px 0px 5px 0px;
+    width: 100%;
+    height: 73%;
+    display: flex;
+}
+
+.photo_activite3
+{
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.activite56
+{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: 575px;
+}
+
+.activite5
+{
+    background-color: white;
+    margin: 10px 0px 20px 10px;
+    padding: 0px 0px 5px 0px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(206, 202, 202);
+    width: 100%;
+    height: 220px;
+}
+
+.image_activite5
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0px 0px 5px 0px;
+    width: 100%;
+    height: 75%;
+    display: flex;
+}
+
+.photo_activite5
+{
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.activite6
+{
+    background-color: white;
+    margin: 10px 0px 10px 10px;
+    padding: 0px 0px 5px 0px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(206, 202, 202);
+    width: 100%;
+    height: 292px;
+}
+
+.image_activite6
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0px 0px 1px 0px;
+    width: 100%;
+    height: 82%;
+    display: flex;
+}
+
+.photo_activite6
+{
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.titre_activite1,
+.titre_activite2,
+.titre_activite3,
+.titre_activite4,
+.titre_activite5,
+.titre_activite6
+{
+    padding-left: 20px;
+}
+
+.decoration_texte
+{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style_S1.css">
+        <!-- Lien vers icones Font Awesome -->
+        <script src="https://kit.fontawesome.com/bdd9672d01.js" crossorigin="anonymous"></script>
+        <title>Titre - Recherche- Filtres</title>
+    </head>
+    <body>
+
+
+        <div class="container">
+
+
+            <!-- Titre de la page - Bouton recherche - Filtres - Info -->
+            <section class="titre_recherche_filtre_info">
+                <div class="bloc_titre_recherche_filtre_info">
+
+                    <div class="bloc_titre_principal">
+                        <h1 class="titre_principal">Trouvez votre hébergement pour des vacances de rêve</h1>
+                        <p class="description_titre_principal">En plein centre de ville ou en pleine nature</p>
+                    </div>
+
+                    <div class="fond_bloc_recherche">
+                        <div class="bloc_recherche">
+                            <div class="box_image_geolocalisation">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="box_panel_texte_recherche">
+                                <form class="panel_recherche" action="traitement.php">
+                                    <input type="text" name="Recherche" id="texte_lieu_recherche" placeholder="Marseille, France">
+                                </form>
+                            </div>                     
+                            <div class="box_recherche">
+                                <a class="decoration_texte" href="#">
+                                    <div class="bouton_recherche">
+                                        <i id="image_loupe_recherche" class="fas fa-search"></i>
+                                        <span class="texte_recherche"><strong>Rechercher</strong></span>
+                                    </div>
+                                </a>
+                            </div>                        
+                        </div>
+                    </div>
+          
+                    <div class="bloc_filtre">
+                        <div class="box_filtre_all">
+                            <div class="box_filtre_titre">
+                                <h2>Filtres</h2>
+                            </div>
+
+                            <div class="box_economique">
+                                <a class="box_decoration_economique" href="#">
+                                    <div class="contour_image_economique">
+                                        <div class="image_economique">
+                                            <i class="fas fa-money-bill-wave"></i>
+                                        </div>
+                                    </div>
+                                    <div class="texte_economique">
+                                        <p><strong>Économique</strong></p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="box_familial">
+                                <a class="box_decoration_familial" href="#">
+                                    <div class="contour_image_familial">
+                                        <div class="image_familial">
+                                            <i class="fas fa-child"></i>
+                                        </div>
+                                    </div>
+                                    <div class="texte_familial">
+                                        <p><strong>Familial</strong></p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="box_romantique">
+                                <a class="box_decoration_romantique" href="#">
+                                    <div class="contour_image_romantique">
+                                        <div class="image_romantique">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="texte_romantique">
+                                        <p><strong>Romantique</strong></p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="box_animal">
+                                <a class="box_decoration_animal" href="#">
+                                    <div class="contour_image_animal">
+                                        <div class="image_animal">
+                                            <i class="fas fa-dog"></i>
+                                        </div>
+                                    </div>
+                                    <div class="texte_animal">
+                                        <p><strong>Animaux autorisés</strong></p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bloc_info">
+                        <div class="box_info">
+                            <div class="contour_image_info">
+                                <div class="image_info">
+                                    <i class="fas fa-info"></i>
+                                </div>
+                            </div>
+                            <div class="texte_info">
+                                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </section>
+
+
+
+        </div> 
+
+
+    </body>
+</html>
