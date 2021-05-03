@@ -1,0 +1,885 @@
+/* Paramètres d'affichage pour la page */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    background-color: white;
+    width: 1350px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Paramètres d'affichage de la section S1*/
+
+.titre_recherche_filtre_info
+{
+    width: auto;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.bloc_titre_recherche_filtre_info
+{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.bloc_titre_principal
+{
+    width: auto;
+    height: 20%;
+    
+}
+
+.titre_principal
+{
+    font-size: 2em;
+    margin: 5px 5px 5px 0px;
+}
+
+.description_titre_principal
+{
+    margin: 5px 5px 30px 0px;
+}
+
+.fond_bloc_recherche
+{
+    width: auto;
+    height: 20%;
+}
+
+.bloc_recherche
+{
+    width: 400px;
+    height: 45px;
+    background-color: white;
+    border: 1px solid #F2F2F2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.box_image_geolocalisation
+{
+    width: 50px;
+    height: 100%;
+    border: 2px solid #F2F2F2;
+    background-color: #F2F2F2;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: -1px 0px -1px -1px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.box_panel_texte_recherche
+{
+    width: 225px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+}
+
+#texte_lieu_recherche
+{
+    font-size: 1em;
+    padding-left: 20px;
+    height: 45px;
+    width: 203px;
+    border: 1px solid #F2F2F2;
+}
+
+.box_recherche
+{
+    width: 130px;
+    height: 100%;
+    border: 2px solid #0065FC;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: -1px -1px -1px 0px;
+    background-color: #0065FC;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bouton_recherche
+{
+    background-color: #0065FC;
+    border: none;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1.1em;
+}
+
+.decoration_texte_recherche
+{
+    text-decoration: none;
+    color:white;
+}
+
+#image_loupe_recherche
+{
+    position: absolute;
+    visibility: hidden;
+}
+
+
+.bloc_filtre 
+{
+    width: auto;
+    height: 20%;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.box_filtre_all
+{
+    background-color:white;
+    width: 900px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.box_filtre_titre
+{
+    height: 50px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box_decoration_economique
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+    width: 160px;
+    height: 50px;
+    margin: 0px 15px 0px 15px;
+    border: 2px solid #F2F2F2;
+    border-radius: 50px;
+}
+
+.contour_image_economique
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #DEEBFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #DEEBFF;
+    margin: -2px;
+}
+
+.image_economique
+{
+    color: #0065FC;
+}
+
+.texte_economique
+{
+    color: black;
+    margin-right: 5px;
+    font-size: 1em;
+}
+
+.box_decoration_familial
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+    width: 130px;
+    height: 50px;
+    margin: 0px 15px 0px 15px;
+    border: 2px solid #F2F2F2;
+    border-radius: 50px;
+}
+
+.contour_image_familial
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #DEEBFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #DEEBFF;
+    margin: -2px;
+}
+
+.image_familial
+{
+    color: #0065FC;
+}
+
+.texte_familial
+{
+    color: black;
+    margin-right: 5px;
+    font-size: 1em;
+}
+
+.box_decoration_romantique
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+    width: 160px;
+    height: 50px;
+    margin: 0px 15px 0px 15px;
+    border: 2px solid #F2F2F2;
+    border-radius: 50px;
+}
+
+.contour_image_romantique
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #DEEBFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #DEEBFF;
+    margin: -2px;
+}
+
+.image_romantique
+{
+    color: #0065FC;
+}
+
+.texte_romantique
+{
+    color: black;
+    margin-right: 5px;
+    font-size: 1em;
+}
+
+.box_decoration_animal
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    margin: 0px 15px 0px 15px;
+    border: 2px solid #F2F2F2;
+    border-radius: 50px;
+}
+
+.contour_image_animal
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #DEEBFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #DEEBFF;
+    margin: -2px;
+}
+
+.image_animal
+{
+    color: #0065FC;
+}
+
+.texte_animal
+{
+    color: black;
+    margin-right: 5px;
+    font-size: 1em;
+}
+
+.bloc_info 
+{
+    width: auto;
+    height: 20%;
+    background-color: white;
+}
+
+.box_info
+{
+    width: 700px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.contour_image_info
+{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #eee3e3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image_info
+{
+    color: #0065FC;
+}
+
+.texte_info
+{
+    width: auto;
+    height: auto;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* Section 2 */
+/* Hébergement à Marseille */
+
+.annonce_disponible
+{
+    width: auto;
+    background-color: white;
+    height: 690px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.titre_principal_hebergement
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 13%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 15px;
+}
+
+/* Les 6 hébergements  */
+
+.hebergement_Marseille
+{
+    width: 68%;
+    height: 100%;
+    background-color: #F2F2F2F2;
+    border-radius: 20px;
+    padding: 0px 24px 0px 24px;
+}
+
+.box_hebergement_all
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: auto;
+    height: 74%;
+    margin: 0px 10px 0px 10px;
+}
+
+.box_hebergement1,
+.box_hebergement2,
+.box_hebergement3,
+.box_hebergement4,
+.box_hebergement5,
+.box_hebergement6
+{
+    margin: 12px;
+    width: 30%;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0px 0px 20px rgb(206, 202, 202);
+}
+
+.photo_hebergement1,
+.photo_hebergement2,
+.photo_hebergement3,
+.photo_hebergement4,
+.photo_hebergement5,
+.photo_hebergement6
+{
+    width: 100%;
+    height: 8em;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.commentaire_hebergement
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.titre_hebergement
+{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.prix_hebergement
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.notation_hebergement
+{
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.decoration_texte
+{
+    text-decoration: none;
+    color:black;
+}
+
+.etoile_grise
+{
+    display: flex;
+    color: #dfd7d7f2;
+}
+
+.etoile_bleue
+{
+    display: flex;
+    color: #0065FC;
+}
+
+.afficher_plus
+{
+    display: flex;
+    height: 13%;
+    width: auto;
+    color: black;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+/* Les plus populaires */
+
+.les_plus_populaires
+{
+    width: 30%;
+    height: 100%;
+    margin-left: 2%;
+    background-color: #F2F2F2F2;
+    border-radius: 20px;
+    padding: 0px 24px 0px 24px;
+}
+
+.titre_image_populaire
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+    height: 12%;
+    margin: 12px 12px 0px 12px;
+}
+
+.image_croissance_populaire
+{
+    margin: 10px 10px 10px 10px;
+    padding: 10px 0px 0px 0px;
+    font-size: 1.5em;
+}
+
+.box_populaire_all
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 85%;
+}
+
+.box_populaire1
+{
+    margin: 0px 10px 10px 10px;
+    width: auto;
+    height: 27%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    padding: 5px;
+    box-shadow: 0px 0px 20px rgb(206, 202, 202);
+}
+ 
+.box_populaire2
+{
+    margin: 10px 10px 10px 10px;
+    width: auto;
+    height: 27%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    padding: 5px;
+    box-shadow: 0px 0px 20px rgb(206, 202, 202);
+}
+
+.box_populaire3
+{
+    margin: 10px 10px 15px 10px;
+    width: auto;
+    height: 27%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    padding: 5px;
+    box-shadow: 0px 0px 20px rgb(206, 202, 202);
+}
+
+
+.photo_populaire
+{
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.decoration_texte_populaire
+{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.notation_populaire
+{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+}
+
+
+.commentaire_populaire
+{
+    margin: 5px 15px 5px 20px;
+    width: 50%;
+}
+
+.titre_populaire
+{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.prix_populaire
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.alignement_texte_populaire
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;  
+}
+
+/* Section 3 */
+/* ACTIVITES A MARSEILLE - Affichage normal */
+
+.activite_Marseille
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    width: auto;
+}
+
+.titre_activite_all
+{
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+.bloc_activite
+{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    width: 100%;
+    height: 575px;
+}
+
+.activite1
+{
+    background-color: white;
+    margin: 10px 20px 10px 0px;
+    padding: 0px 0px 5px 0px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(206, 202, 202);
+    width: 100%;
+}
+
+.image_activite1
+{
+    display: flex;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0px 0px 5px 0px;
+    width: 100%;
+    height: 90%;
+}
+
+.photo_activite1
+{
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.activite4
+{
+    background-color: white;
+    margin: 10px 20px 10px 20px;
+    padding: 0px 0px 5px 0px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(206, 202, 202);
+    width: 100%;
+}
+
+.image_activite4
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0px 0px 5px 0px;
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+
+.photo_activite4
+{
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.activite23
+{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 575px;
+}
+
+.activite2
+{
+    background-color: white;
+    margin: 15px 10px 20px 10px;
+    padding: 0px 0px 50px 0px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(206, 202, 202);
+    width: 100%;
+    height: 250px;
+}
+
+.image_activite2
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0px 0px 1px 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.photo_activite2
+{
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.activite3
+{
+    background-color: white;
+    margin: 10px 10px 10px 10px;
+    padding: 0px 0px 1px 0px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(206, 202, 202);
+    width: 100%;
+    height: 220px;
+}
+
+.image_activite3
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0px 0px 5px 0px;
+    width: 100%;
+    height: 73%;
+    display: flex;
+}
+
+.photo_activite3
+{
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.activite56
+{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: 575px;
+}
+
+.activite5
+{
+    background-color: white;
+    margin: 10px 0px 20px 10px;
+    padding: 0px 0px 5px 0px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(206, 202, 202);
+    width: 100%;
+    height: 220px;
+}
+
+.image_activite5
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0px 0px 5px 0px;
+    width: 100%;
+    height: 75%;
+    display: flex;
+}
+
+.photo_activite5
+{
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.activite6
+{
+    background-color: white;
+    margin: 10px 0px 10px 10px;
+    padding: 0px 0px 5px 0px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(206, 202, 202);
+    width: 100%;
+    height: 292px;
+}
+
+.image_activite6
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0px 0px 1px 0px;
+    width: 100%;
+    height: 82%;
+    display: flex;
+}
+
+.photo_activite6
+{
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.titre_activite1,
+.titre_activite2,
+.titre_activite3,
+.titre_activite4,
+.titre_activite5,
+.titre_activite6
+{
+    padding-left: 20px;
+}
+
+.decoration_texte
+{
+    text-decoration: none;
+    color: black;
+}
