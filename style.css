@@ -97,10 +97,10 @@
 .titre_recherche_filtre_info
 {
     width: auto;
-    height: 300px;
+    height: 350px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .bloc_titre_recherche_filtre_info
@@ -146,7 +146,8 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 
 .box_image_geolocalisation
@@ -226,7 +227,7 @@
     width: auto;
     height: 20%;
     background-color: white;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 20px;
 }
 
@@ -410,6 +411,15 @@
     font-size: 1em;
 }
 
+.box_decoration_economique:hover,
+.box_decoration_familial:hover,
+.box_decoration_romantique:hover,
+.box_decoration_animal:hover
+{
+    background-color: #edf3fc;
+}
+
+
 .bloc_info 
 {
     width: auto;
@@ -429,8 +439,8 @@
 
 .contour_image_info
 {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     border: 1px solid #eee3e3;
     display: flex;
@@ -468,7 +478,7 @@
     flex-direction: row;
     justify-content: space-between;
     border-radius: 20px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .titre_principal_hebergement
@@ -614,8 +624,7 @@
 
 .image_croissance_populaire
 {
-    margin: 10px 10px 10px 10px;
-    padding: 10px 0px 0px 0px;
+    margin: 0px 10px 10px 10px;
     font-size: 1.5em;
 }
 
