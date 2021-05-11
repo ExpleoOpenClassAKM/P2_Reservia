@@ -587,12 +587,7 @@ p
     transform: scale(1.02);
 }
 
-.photo_hebergement1,
-.photo_hebergement2,
-.photo_hebergement3,
-.photo_hebergement4,
-.photo_hebergement5,
-.photo_hebergement6
+.photo_hebergement
 {
     width: 100%;
     height: 8em;
