@@ -501,11 +501,14 @@ p
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 2px;
 }
 
 .image_info
 {
     color: #0065FC;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .texte_info
@@ -665,17 +668,24 @@ p
 {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-content: space-around;
     justify-content: space-between;
     height: 12%;
     margin: 12px 0px 0px 12px;
 }
 
+.titre_partie_populaire
+{
+    display: block;
+    height: auto;
+    display: flex;
+}
+
 .image_croissance_populaire
 {
     margin: 0px 10px 10px 10px;
     font-size: 1.5em;
+    display: block;
 }
 
 .box_populaire_all
@@ -782,13 +792,13 @@ p
     flex-direction: row;
     align-content: space-between;
     width: 100%;
-    height: 575px;
+    height: 550px;
 }
 
 .box_activity1
 {
     background-color: white;
-    margin: 10px 20px 10px 0px;
+    margin-right: 15px;
     padding: 0px 0px 5px 0px;
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgb(206, 202, 202);
@@ -822,7 +832,7 @@ p
 .box_activity4
 {
     background-color: white;
-    margin: 10px 20px 10px 20px;
+    margin: 0px 15px 0 15px;
     padding: 0px 0px 5px 0px;
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgb(206, 202, 202);
@@ -859,14 +869,15 @@ p
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 575px;
+    height: 550px;
+    margin: 0px 15px 0px 15px;
 }
 
 .box_activity2
 {
     background-color: white;
-    margin: 15px 10px 20px 10px;
-    padding: 0px 0px 50px 0px;
+    margin-bottom: 15px;
+    padding-bottom: 30px;
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgb(206, 202, 202);
     width: 100%;
@@ -884,7 +895,7 @@ p
     border-top-right-radius: 10px;
     padding: 0px 0px 1px 0px;
     width: 100%;
-    height: 100%;
+    height: 90%;
     display: flex;
 }
 
@@ -900,12 +911,12 @@ p
 .box_activity3
 {
     background-color: white;
-    margin: 10px 10px 10px 10px;
-    padding: 0px 0px 1px 0px;
+    margin-top: 15px;
+    padding-bottom: 30px;
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgb(206, 202, 202);
     width: 100%;
-    height: 220px;
+    height: 210px;
 }
 
 .box_activity3:hover
@@ -919,7 +930,7 @@ p
     border-top-right-radius: 10px;
     padding: 0px 0px 5px 0px;
     width: 100%;
-    height: 73%;
+    height: 86%;
     display: flex;
 }
 
@@ -939,18 +950,19 @@ p
     flex-wrap: wrap;
     flex-direction: column;
     width: 100%;
-    height: 575px;
+    height: 550px;
+    margin-left: 15px;
 }
 
 .box_activity5
 {
     background-color: white;
-    margin: 10px 0px 20px 10px;
-    padding: 0px 0px 5px 0px;
+    margin-bottom: 15px;
+    padding-bottom: 30px;
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgb(206, 202, 202);
     width: 100%;
-    height: 220px;
+    height: 210px;
 }
 
 .box_activity5:hover
@@ -964,7 +976,7 @@ p
     border-top-right-radius: 10px;
     padding: 0px 0px 5px 0px;
     width: 100%;
-    height: 75%;
+    height: 86%;
     display: flex;
 }
 
@@ -980,12 +992,12 @@ p
 .box_activity6
 {
     background-color: white;
-    margin: 10px 0px 10px 10px;
-    padding: 0px 0px 5px 0px;
+    margin-top: 15px;
+    padding-bottom: 30px;
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgb(206, 202, 202);
     width: 100%;
-    height: 292px;
+    height: 250px;
 }
 
 .box_activity6:hover
@@ -999,7 +1011,7 @@ p
     border-top-right-radius: 10px;
     padding: 0px 0px 1px 0px;
     width: 100%;
-    height: 82%;
+    height: 90%;
     display: flex;
 }
 
@@ -1035,13 +1047,12 @@ p
 
 .fond_page_footer
 {
-    width: auto;
+    max-width: 1350;
     height: auto;
     background-color: #F2F2F2;
     margin: 0;
     padding: 0;
     display: flex;
-    padding-bottom: 2%;
 }
 
 .bloc_footer
@@ -1105,6 +1116,7 @@ p
 {
     margin-bottom: 15px;
     font-size: 1.3em;
+    white-space: nowrap;
 }
 
 .texte_footer ul
@@ -1115,9 +1127,11 @@ p
 .texte_footer a
 {
     text-decoration: none;
-    line-height: 2em;
     font-size: 1em;
     color: black;
+    display: block;
+    margin: 1em 0;
+    line-height: normal;
 }
 
 .texte_footer a:hover
