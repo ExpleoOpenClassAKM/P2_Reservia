@@ -146,7 +146,6 @@ p
             color: #0065FC;
             padding: 30px 0px 0px 30px;
         }
-        
 
 
         /* Paramètres d'affichage de la section S1*/
@@ -1050,7 +1049,7 @@ p
         justify-content: flex-start;
         width: auto;
         margin-left: 0px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 
     .box_Accom_Assistance
@@ -1060,6 +1059,7 @@ p
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        padding-right: 0;
     }
 
     .text_Accom_Assistance
@@ -1068,6 +1068,7 @@ p
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        width: 100%;
     }
 
     .box_nos_hebergements
@@ -1076,7 +1077,8 @@ p
         flex-direction: column;
         width: auto;
         margin-left: 0px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
+        margin-right: 0;
     }
 
 
@@ -1086,6 +1088,7 @@ p
         flex-direction: column;
         width: auto;
         margin-left: 0px;
+        margin-bottom: 20px;
     }
 
     .titre_footer
@@ -1106,7 +1109,7 @@ p
         font-size: 1em;
         color: black;
         display: block;
-        margin: 1em 0;
+        margin: 0.8em 0;
         line-height: normal;
     }
 
@@ -1149,8 +1152,9 @@ p
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        width: 30%;
+        width: 35%;
         margin-right: 0;
+        margin-bottom: 20px;
     }
 
     .box_Accom_Assistance
@@ -1211,7 +1215,7 @@ p
         font-size: 1em;
         color: black;
         display: block;
-        margin: 1em 0;
+        margin: 0.8em 0;
         line-height: normal;
     }
 

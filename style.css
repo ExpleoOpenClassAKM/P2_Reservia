@@ -1041,8 +1041,6 @@ p
     color: black;
 }
 
-
-
 /* FOOTER */
 
 .fond_page_footer
@@ -1074,6 +1072,7 @@ p
     justify-content: flex-end;
     width: 20%;
     margin-right: 5%;
+    margin-bottom: 20px;
 }
 
 .box_Accom_Assistance
@@ -1130,7 +1129,7 @@ p
     font-size: 1em;
     color: black;
     display: block;
-    margin: 1em 0;
+    margin: 0.8em 0;
     line-height: normal;
 }
 
